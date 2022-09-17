@@ -1,0 +1,58 @@
+.tableClientsCharger-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    padding: 15px 23px 10px 23px;
+    width: 84vw;
+    background: #ffffff;
+    border-radius: 30px;
+    position: relative;
+}
+
+.tableClientsCharger-header {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+
+    color: #3F3F55;
+    padding-bottom: 10px;
+}
+
+.tableClientsCharger-header th {
+    width: 16.7%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-add-chargesC{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px 56px;
+gap: 4px;
+background: #DA0175;
+border-radius: 10px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+border-color:#DA0175;
+
+
+color: #F8F8F9;
+}
+.th-td-spacing-clientsD1 {
+    padding-left: 20px;
+}
+.btn-chargesD{
+    padding: 10px;
+}

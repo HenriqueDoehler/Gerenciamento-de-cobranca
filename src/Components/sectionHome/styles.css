@@ -1,0 +1,87 @@
+/* Header Home Page */
+
+.homePage-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #F8F8F9;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+/* -----Resume----- */
+
+.homePage-resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 19px;
+}
+
+.boxes-resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+    width: 360px;
+    height: 111px;
+    border-radius: 30px;
+}
+
+.homePage-resume-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    color: #3F3F55;
+}
+
+.homePage-resume-date h2 {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.homePage-resume-date span {
+    font-size: 24px;
+}
+
+
+/* Background Color */
+
+.bc-primary {
+    background-color: #EEF7F7;
+}
+
+.bc-secondary {
+    background-color: #FFEFEF;
+}
+
+.bc-tertiary {
+    background-color: #FCF6DC;
+}
+
+/* ------Cards de Cobranças-------*/
+
+.container-charges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 24px;
+}
+
+.container-status-clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin: 32px 0px;
+}

@@ -1,0 +1,115 @@
+.clients-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px;
+    width: 100vw;
+    min-height: 100vh;
+    background: #F8F8F9;
+    padding-bottom: 30px;
+}
+
+.container-up-table {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    justify-content: center;
+    padding-top: 24px;
+    gap: 16px;
+}
+
+.container-up-table h1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.container-up-table input {
+    all: unset;
+    box-sizing: border-box;
+    padding: 7px 12px;
+    width: 322px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(218, 1, 117, 0.05);
+}
+
+.btn-filter-clients {
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(218, 1, 117, 0.05);
+}
+
+.btn-filter-clients:hover {
+    transform: scale(1.1);
+}
+
+.add-client-button {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 4px 56px;
+    width: 267px;
+    height: 33px;
+    background: #DA0175;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(218, 1, 117, 0.15);
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #F8F8F9;
+    cursor: pointer;
+}
+
+.add-client-button:hover {
+ transform: scale(1.02);
+}
+
+.container-search-clients {
+position: relative;
+opacity: 0.95;
+}
+
+.container-search-clients:hover {
+    opacity: 1;
+    transform: scale(1.01);
+}
+
+.container-search-clients img {
+    position: absolute;
+    right: 12.75px;
+    top: 12.7px;
+    box-shadow: 0px 4px 4px rgba(218, 1, 117, 0.05);
+
+}
+
+.clientes-text {
+    margin-right: 310px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #3F3F55;
+}
+.clientsName-text{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 80%;
+padding: 30px 20px;
+}
+.text-clients-div{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 130%;
+color: #3F3F55;  
+}

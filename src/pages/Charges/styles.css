@@ -1,0 +1,9 @@
+.charges-container {
+    width: 93vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 90px;
+    background-color: #F8F8F9;
+}

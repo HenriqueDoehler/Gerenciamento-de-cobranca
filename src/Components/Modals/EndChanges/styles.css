@@ -1,0 +1,17 @@
+.container-modal-edit {
+    width: 600px;
+    height: 512px;
+}
+
+.sub-title {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.check {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+}

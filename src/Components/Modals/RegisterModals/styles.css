@@ -1,0 +1,72 @@
+.container-modal-edit {
+    width: 475px !important;
+    height: 600px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 25px !important;
+    left: 430px !important;
+    cursor: pointer;
+}
+
+.close:hover {
+    transform: scale(1.2);
+}
+
+.client-img {
+    width: 300px;
+    height: 30px;
+    display: flex !important;
+}
+
+.client-add-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px !important;
+}
+
+.label-end {
+    margin-top: 20px !important;
+}
+
+.input-cep {
+    margin-bottom: 20px !important;
+}
+
+.input-cidade {
+    width: 300px !important;
+    margin-right: 20px !important;
+}
+
+.input-uf {
+    width: 130px !important;
+    margin-left: -100px !important;
+}
+
+.div-btn {
+    width: 100% !important;
+    display: flex;
+    margin-left: -3px !important;
+    justify-content: space-around !important;
+}
+
+.btn-cancelar {
+    width: 180px !important;
+    height: 28px !important;
+    color: #0E8750 !important;
+    border-radius: 8px !important;
+    background-color: #F8F8F9 !important;
+}
+
+.btn-aplicar {
+    width: 180px !important;
+    height: 28px !important;
+    border-radius: 8px !important;
+    background-color: #DA0175 !important;
+}

@@ -1,0 +1,89 @@
+.header-global {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 72px;
+    padding: 0px 40px;
+    border-bottom: 1px solid #ACD9C5;
+    margin: 35px 3vw 0 3vw;
+}
+
+.typography-primary {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+
+    color: #343447;
+}
+
+.typography-secondary {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #0E8750;
+}
+
+.container-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #0E8750;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.circle-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: #DEDEE9;
+    font-size: 15px;
+    line-height: 30px;
+    margin-right: 8px;
+}
+
+.container-profile h3 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.box-options {
+    position: relative;
+}
+
+.box-options img {
+    cursor: pointer;
+}
+
+.box-options img:hover {
+    transform: scale(1.1);
+}
+
+.gt-span{
+  position:absolute;
+ left: 260px;
+}
+.subtitle-chargesPage{
+    position:absolute;
+   left: 280px;
+   padding-top: 3px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #717171;
+  }

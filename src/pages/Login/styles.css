@@ -1,0 +1,62 @@
+.login-Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+.img-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100%;
+}
+
+.link-login {
+   display: flex;
+   justify-content: flex-end;
+   margin: 0;
+   padding: 0;
+    
+}
+.form-inputs-signIn{
+   display: flex;
+  
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-end;
+    margin-left: 50%;
+}
+
+.btn-cadastrar{
+background: #DA0175 !important;
+width: 160px !important;
+border-radius: 50px;
+}
+.div-btn{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    border-radius: 50px;
+}
+span  a {
+    font-weight: 700;
+    color: #DA0175;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+}
+.viewBtn {
+    z-index: 9999 !important;
+    cursor: pointer !important;
+    position: absolute !important;
+}
+.input-password{
+  margin: 0 !important;
+  padding: 0  !important;
+}

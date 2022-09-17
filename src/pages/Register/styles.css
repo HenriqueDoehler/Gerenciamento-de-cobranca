@@ -1,0 +1,77 @@
+.register-container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.steps{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    background-color: #F0F0F5;
+    flex-direction: column;
+    width: 35vw;
+    height: 100vh;
+}
+.steps-box{
+    margin-top: 25%;
+}
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10%;
+    height: 100vh;
+}
+.form-box-2{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    width:65vw;
+    height: 100vh;
+   margin-left: 35vw;
+}
+.final-steps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 50%;
+    position: absolute;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F0F5;
+    width: 600px;
+    height: 512px;
+    border-radius: 8%;
+}
+.box-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.check-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+}.div-h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 30%;
+}
+.div-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 50%;
+}

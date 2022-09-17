@@ -1,0 +1,50 @@
+.ul-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    list-style: none;
+    background: #F0F0F5;
+    width: 108px;
+    height: 100vh;
+    top: 0;
+    gap: 25px;
+    padding-top: 40px;
+}
+
+.ul-list li {
+    position: relative;
+}
+
+.line-style {
+    position: absolute;
+    height: 2px;
+    width: 82px;
+
+    background-color: #DA0175;
+    border-right: 2px solid #DA0175;
+    transform: rotate(90deg);
+}
+
+.ls1 {
+    top: 38px;
+    left: 38px;
+}
+
+.ls2 {
+    top: 140px;
+    left: 39px;
+}
+
+.ls3 {
+    top: 243px;
+    left: 39px;
+}
+
+.ul-list img {
+    cursor: pointer;
+}
+
+.ul-list img:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,65 @@
+.tableClients-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    padding: 15px 23px 10px 23px;
+    width: 84vw;
+    background: #ffffff;
+    border-radius: 30px;
+    position: relative;
+}
+
+.table-header {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+    color: #3F3F55;
+    padding-bottom: 10px;
+}
+
+.table-header th {
+    width: 16.7%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.table-content {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #EFF0F6;
+    cursor: pointer;
+}
+
+.table-content:hover {
+    transform: scale(1.005);
+    background: rgba(244, 244, 244, 0.13);
+}
+
+.btn-charges1:hover {
+    transform: scale(1.1);
+}
+
+.table-content td {
+    display: flex;
+    align-items: center;
+    width: 16.6%;
+    height: 56px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #747488;
+}
+
+.th-td-spacing-clients {
+    padding-left: 47px;
+}

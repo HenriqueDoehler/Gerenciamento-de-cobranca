@@ -1,0 +1,216 @@
+.container-modal-details-charges {
+    width: 650px;
+    height: 480px;
+    display: flex !important;
+    flex-direction: column;
+}
+
+.close-details-charges {
+    position: absolute;
+    top: 30px;
+    left: 600px !important;
+    cursor: pointer;
+}
+
+.icon-title-charges-modal-details {
+    width: 350px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+.title-modals {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #3F3F55;
+    margin-left: 12px;
+}
+
+.name-details {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Nunito';
+    font-style: normal;
+    color: #3F3F55;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.label-details {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.input-details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.descricao-details {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Nunito';
+    font-style: normal;
+    color: #3F3F55;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.label-details {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 3px;
+}
+
+.textarea-details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.vencimento-valor-details {
+    display: flex;
+    font-family: 'Nunito';
+    font-style: normal;
+    color: #3F3F55;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.div-vencimento {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Nunito';
+    font-style: normal;
+    color: #3F3F55;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 150px;
+}
+
+.div-valor {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Nunito';
+    font-style: normal;
+    color: #3F3F55;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.div-id-status-details {
+    display: flex;
+    font-family: 'Nunito';
+    font-style: normal;
+    color: #3F3F55;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.div-id-cobranca {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Nunito';
+    font-style: normal;
+    color: #3F3F55;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 143px;
+}
+
+.div-status {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Nunito';
+    font-style: normal;
+    color: #3F3F55;
+    margin-top: 10px;
+}
+
+/* .input-details-status {
+    width: 80px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Nunito' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 5px;
+    color: #971D1D;
+    background-color: #FFEFEF;
+} */
+
+.item-status-charges-paga-details {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1FA7AF;
+    text-align: left;
+    background-color: #EEF6F6;
+    border-radius: 8px;
+}
+
+.item-status-charges-pendente-details {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #C5A605;
+    text-align: left;
+    background-color: #FCF6DC;
+    border-radius: 8px;
+}
+
+.item-status-charges-vencida-details {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #971D1D;
+    text-align: left;
+    background-color: #FFEFEF;
+    border-radius: 8px;
+}

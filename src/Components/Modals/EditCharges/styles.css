@@ -1,0 +1,154 @@
+.container-modal-edit {
+    width: 480px;
+    height: 623px;
+    padding-left: 50px !important;
+}
+
+.icon-title-charges {
+    width: 265px !important;
+    height: 30px !important;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 30px !important;
+}
+
+.icon-charges-title {
+    width: 30px;
+    height: 32px;
+}
+
+.title {
+    font-size: 22px;
+    text-align: center;
+}
+
+.close-edit-modal {
+    position: absolute;
+    top: 30px;
+    left: 440px;
+    cursor: pointer;
+}
+
+.descricao {
+
+    border-radius: 8px !important;
+    padding: 8px;
+}
+
+.vencimento-valor {
+    width: 380px !important;
+    display: flex;
+}
+
+.vencimento-charges {
+    width: 50%;
+    margin-right: 24px;
+}
+
+.valor-charges {
+    width: 50%;
+}
+
+.cobranca-paga-verde {
+    position: relative;
+    width: 380px;
+    height: 34px;
+    padding-left: 10px;
+    border-radius: 8px;
+    background-color: #F0F0F5;
+}
+
+.label-check-verde {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.label-check-verde input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.check-verde {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    top: 4px;
+    left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E8750;
+    cursor: pointer;
+}
+
+.cobranca-paga-cinza {
+    position: relative;
+    width: 380px;
+    height: 34px;
+    padding-left: 10px;
+    border-radius: 8px;
+    background-color: #F0F0F5;
+}
+
+.label-check-cinza {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.label-check-cinza input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.check-cinza {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    top: 4px;
+    left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C8C8D7;
+    cursor: pointer;
+}
+
+.text-modal-edicao-add-cobranca {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 35px;
+    margin-top: 4px;
+    color: #3F3F55;
+}
+
+.btn-charges-add {
+    width: 380px;
+    height: 34px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-charges-cancelar {
+    width: 180px;
+    height: 34px;
+    color: #0E8750 !important;
+    background-color: #F8F8F9 !important;
+}
+
+.btn-charges-aplicar {
+    width: 180px;
+    height: 34px;
+    color: white !important;
+    background-color: #DA0175 !important;
+}

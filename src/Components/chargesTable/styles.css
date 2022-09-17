@@ -1,0 +1,138 @@
+.cardCharges {
+  width: 360px;
+  height: 397px;
+  border-radius: 40px;
+}
+
+.title-charge {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 58px;
+  padding: 0 24px;
+  font-family: 'Montserrat', 'sans-serif';
+  font-style: normal;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+  border-radius: 30px 30px 0 0;
+  margin-bottom: 1px;
+}
+
+.title-charge h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+
+  margin: 0 40px 0 24px;
+
+  color: #3F3F55;
+}
+
+.number-charges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+  width: 50px;
+  height: 21px;
+  border-radius: 8px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.number-red {
+  background-color: #FFEFEF;
+  color: #971D1D;
+}
+
+.number-yellow {
+  background-color: #FCF6DC;
+  color: #C5A605;
+}
+
+.number-blue {
+  background-color: #EEF6F6;
+  color: #1FA7AF;
+}
+
+/* Tabela */
+
+.container-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 290px;
+  width: 360px;
+
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  text-align: left;
+
+  background-color: #FFFFFF;
+  color: #3F3F55;
+  white-space: pre;
+}
+
+.table-head {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 66px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  letter-spacing: 0.005em;
+  padding-left: 25px;
+
+  color: #3F3F55;
+
+  border-bottom: 1px solid #EFF0F7;
+}
+
+.table-row {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  border-bottom: 1px solid #EFF0F7;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 0.005em;
+  padding-left: 25px;
+
+  color: #6E6E85;
+}
+
+.container-table th {
+  width: 33%;
+  overflow: hidden;
+}
+
+.container-table th:first-child {
+  width: calc(33% - 16px);
+  margin-right: 16px;
+}
+
+.container-table th:last-child {
+  padding-left: 20px;
+}
+
+.footer-charge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+  border-radius: 0 0 30px 30px;
+}
+
+.footer-charge a {
+  color: #DA0175
+}

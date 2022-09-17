@@ -1,0 +1,25 @@
+.container-modal-edit {
+    width: 491px;
+    height: 623px;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 32px !important;
+}
+
+.close {
+    position: absolute;
+    top: 30px;
+    left: 440px;
+}
+
+.cpf-telefone {
+    width: 380px !important;
+    display: flex;
+}
+
+.cpf {
+    margin-right: 24px;
+}

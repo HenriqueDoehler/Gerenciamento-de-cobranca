@@ -1,0 +1,39 @@
+.container-popUp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 16px;
+  gap: 37px;
+
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+
+  width: 350px;
+  height: 54px;
+  border-radius: 10px;
+}
+
+.container-popUp div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.popUp-action-sucess {
+  box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.2);
+  background: #C3D4FE;
+}
+
+.popUp-action-fail {
+  box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.25);
+  background: #F2D6D0;
+}
+
+.close-popUp {
+  cursor: pointer;
+}
+
+.close-popUp:hover {
+  transform: scale(1.3);
+}
